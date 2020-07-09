@@ -34,6 +34,7 @@ namespace WeatherAppBot.Controllers
                     break;
                 }
             }
+
             return Ok();
         }
     }
