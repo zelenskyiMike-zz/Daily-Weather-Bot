@@ -10,6 +10,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using WeatherAppBot.BusinessLogic.Services;
+using WeatherAppBot.DataAccess;
+using WeatherAppBot.DataAccess.Interfaces;
+using WeatherAppBot.DataAccess.Repositories;
 using WeatherAppBot.Models;
 
 namespace WeatherAppBot
@@ -27,6 +31,11 @@ namespace WeatherAppBot
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            services.AddScoped<IWeatherService, WeatherService>();
+            services.AddScoped<ICityRepository, CityRepository>();
+            services.AddScoped<IOpenWeatherApiService, OpenWeatherApiService>();
+            services.AddScoped<AppDbContext>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
