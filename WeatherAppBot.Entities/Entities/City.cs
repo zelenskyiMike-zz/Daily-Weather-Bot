@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace WeatherAppBot.Entities.Entities
+﻿namespace WeatherAppBot.Entities.Entities
 {
     public class City
     {

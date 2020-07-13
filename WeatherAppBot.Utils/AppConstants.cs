@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace WeatherAppBot.Utils
+﻿namespace WeatherAppBot.Utils
 {
     public static class AppConstants
     {
