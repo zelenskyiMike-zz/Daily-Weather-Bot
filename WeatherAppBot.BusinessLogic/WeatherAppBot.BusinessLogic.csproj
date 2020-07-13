@@ -5,7 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Services\" />
+    <PackageReference Include="Telegram.Bot" Version="15.7.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WeatherAppBot.DataAccess\WeatherAppBot.DataAccess.csproj" />
+    <ProjectReference Include="..\WeatherAppBot.Entities\WeatherAppBot.Entities.csproj" />
+    <ProjectReference Include="..\WeatherAppBot.Utils\WeatherAppBot.Utils.csproj" />
   </ItemGroup>
 
 </Project>

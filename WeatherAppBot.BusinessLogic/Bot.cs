@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Telegram.Bot;
 using WeatherAppBot.Models.Commands;
+
 
 namespace WeatherAppBot.Models
 {
