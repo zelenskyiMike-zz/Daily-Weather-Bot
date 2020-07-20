@@ -10,6 +10,9 @@ namespace WeatherAppBot.Models
 
         public abstract Task Execute(Message message, TelegramBotClient client);
 
-        public abstract bool Contains(Message message);
+        public bool Contains(string command)
+        {
+            return command.Contains(this.Name)/* && command.Contains(AppSettings.Name)*/;
+        }
     }
 }
