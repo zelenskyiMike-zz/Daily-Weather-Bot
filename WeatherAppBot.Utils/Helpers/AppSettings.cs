@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WeatherAppBot.Models
+namespace WeatherAppBot.Utils.Helpers
 {
     public static class AppSettings
     {

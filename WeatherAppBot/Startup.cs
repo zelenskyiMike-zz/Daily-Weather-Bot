@@ -7,7 +7,7 @@ using WeatherAppBot.BusinessLogic.Services;
 using WeatherAppBot.DataAccess;
 using WeatherAppBot.DataAccess.Interfaces;
 using WeatherAppBot.DataAccess.Repositories;
-using WeatherAppBot.Models;
+using WeatherAppBot.BusinessLogic;
 
 namespace WeatherAppBot
 {

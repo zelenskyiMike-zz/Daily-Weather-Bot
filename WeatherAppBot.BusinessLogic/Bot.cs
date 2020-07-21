@@ -2,10 +2,9 @@
 using System.Threading.Tasks;
 using Telegram.Bot;
 using WeatherAppBot.BusinessLogic.Commands;
-using WeatherAppBot.Models.Commands;
+using WeatherAppBot.Utils.Helpers;
 
-
-namespace WeatherAppBot.Models
+namespace WeatherAppBot.BusinessLogic
 {
     public static class Bot
     {

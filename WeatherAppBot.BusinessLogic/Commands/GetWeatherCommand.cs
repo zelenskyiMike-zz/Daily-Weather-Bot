@@ -4,10 +4,9 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Telegram.Bot;
 using Telegram.Bot.Types;
+using WeatherAppBot.BusinessLogic.Models;
 using WeatherAppBot.BusinessLogic.Services;
 using WeatherAppBot.DataAccess.Repositories;
-using WeatherAppBot.Entities.Models;
-using WeatherAppBot.Models;
 
 namespace WeatherAppBot.BusinessLogic.Commands
 {

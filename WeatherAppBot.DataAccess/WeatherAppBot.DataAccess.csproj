@@ -13,7 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WeatherAppBot.Entities\WeatherAppBot.Entities.csproj" />
+    <Folder Include="Entities\" />
   </ItemGroup>
-
 </Project>

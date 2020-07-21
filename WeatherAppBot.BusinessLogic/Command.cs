@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Telegram.Bot;
 
-namespace WeatherAppBot.Models
+namespace WeatherAppBot.BusinessLogic
 {
     public abstract class Command
     {

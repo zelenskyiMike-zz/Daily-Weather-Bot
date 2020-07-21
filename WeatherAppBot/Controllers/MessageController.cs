@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using Telegram.Bot.Types;
 using WeatherAppBot.BusinessLogic.Services;
-using WeatherAppBot.Models;
+using WeatherAppBot.BusinessLogic;
 
 namespace WeatherAppBot.Controllers
 {

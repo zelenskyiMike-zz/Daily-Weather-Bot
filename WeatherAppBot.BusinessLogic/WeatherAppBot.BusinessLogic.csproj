@@ -10,8 +10,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\WeatherAppBot.DataAccess\WeatherAppBot.DataAccess.csproj" />
-    <ProjectReference Include="..\WeatherAppBot.Entities\WeatherAppBot.Entities.csproj" />
     <ProjectReference Include="..\WeatherAppBot.Utils\WeatherAppBot.Utils.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
 </Project>
